@@ -55,9 +55,7 @@ public class MovieDetailActivity extends MvpAppCompatActivity implements IMovieD
         detailPresenter = new MovieDetailPresenter();
         detailPresenter.loadMovie(movie);
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show());*/
+
     }
 
 
