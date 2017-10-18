@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.felix.movietest.ui.details.MovieDetailActivity"
+    tools:showIn="@layout/activity_movie_details"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="398dp"
+        android:layout_height="290dp"
+        app:srcCompat="@drawable/ic_error_black_24dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <TextView
+        android:id="@+id/titleMovie"
+        android:layout_width="154dp"
+        android:layout_height="52dp"
+        android:textSize="@dimen/movie_name_image_view_size"
+        tools:layout_editor_absoluteY="282dp"
+        tools:layout_editor_absoluteX="115dp" />
+
+
+</android.support.constraint.ConstraintLayout>

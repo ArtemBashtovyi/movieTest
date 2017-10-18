@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="popular_image_view_height">300dp</dimen>
+    <dimen name="popular_image_view_width">200dp</dimen>
+
+    <dimen name="movie_name_image_view_size">20sp</dimen>
+
+</resources>
