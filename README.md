@@ -1,2 +1,2 @@
 # movieTest
-Test project
+RxJava2,Moxy GreenDao/Picasso - for caching
